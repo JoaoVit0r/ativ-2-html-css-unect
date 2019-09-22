@@ -6,6 +6,7 @@
 html, body{
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background: rgb(216,234,243);
 }
 
 
@@ -18,7 +19,7 @@ h1{
 h2{
     font-size: 36px;
     text-align: center;
-    color: blue;
+    color: rgb(25, 90, 205);
     text-transform: uppercase;
 }
 
@@ -80,6 +81,7 @@ blockquote{
 
 .sobre{
     background: rgb(216,234,243);
+    margin: 10px 0px;
 }
 
 .container{
@@ -105,9 +107,41 @@ blockquote{
     font-size: 36px;
 }
 
+.cronograma{
+    padding: 70px 0;
+}
 
+.cronograma ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px 0;
+    height: 100%;
+}
 
+.cronograma ul li, .semana{
+    display: flex;
+    flex-direction: column;
+}
 
+.cronograma h3{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(25, 90, 205);
+}
+
+.item{
+    background: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.item img{
+    max-width: 450px;
+}
 
 
 
